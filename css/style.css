@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 1rem;
+}
+
+header{
+    
+    background-color: blue;
+    margin-bottom: 1rem;
+}
+
+header, footer{
+    height: 100px;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar, main, aside{
+    padding: 1rem;
+    min-height: 300px;
+}
+
+.sidebar, aside{
+    width: 25%;
+}
+
+
+.sidebar {
+    
+    background-color: red;
+    
+    
+}
+
+main {
+    width: 48%;
+    background-color: orange;
+    
+    
+}
+
+aside{
+    
+    background-color: yellow;
+    
+    
+}
+
+footer {
+    background-color: aqua;
+    margin-top: 1rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    padding-left: 1rem;
+}
